@@ -1,0 +1,200 @@
+input[type=text], select, textarea {
+    width: 40%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+  }
+
+  input[type=number]{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+  }
+  
+  .content label {
+    color: rgb(0, 0, 0);
+    font-weight: bolder;
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+  }
+  
+  input[type=button] {
+    height: 100%;
+    padding: 10px;
+    background: black;
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none;
+    cursor: pointer;
+  }
+  
+  input[type=button]:hover {
+    background-color: dimgray;
+  }
+  
+  input[type=submit] {
+    background-color: #24a0ed;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+    margin-right: 50px;
+  }
+  button{
+    background-color: #24a0ed;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    /* margin-right: 50px; */
+  }
+  input[type=submit]:hover {
+    background-color: rgb(0,0,128);
+  }
+  
+  .form {
+    text-align: left;
+    padding: 5px;
+    margin-left: 20px;
+  }
+  
+  .col-15 {
+      float: left;
+      margin-top: 6px;
+      margin-left: 35px;
+  }
+  
+  .col-30 {
+      float: left;
+      width: 20%;
+      margin-top: 6px;
+      margin-left: 100px;
+  }
+  
+  .col-25 {
+    float: left;
+    width: 25%;
+    margin-top: 10px;
+    margin-left: 250px;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  .content table{
+    width: 100%; 
+    background: #fff;  
+    color: #222; 
+    padding: 24px;
+    box-shadow: 0 4px 15px -8px rgba(0, 0, 0, 0.4);
+    border-collapse: collapse;
+    margin-left: 20px;
+  }
+  .contentIn{
+    width: 100%;
+    height: auto;
+    overflow: visible;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 2%;
+}
+  .card {
+    background-color: #19B3D3;
+    box-shadow: 0px 0px 10px 2px black;
+    max-width: 150px;
+    min-height: 350px;
+    margin-top: 20px;
+    margin-left: 60px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-family: arial;
+    position: relative;
+}
+  .content thead tr{
+    background:rgba(25,179,211,1);
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  table td, table th{
+    padding: 16px 32px;
+  }
+  
+  table tr{
+    border-bottom: 1px solid #eee;
+  }
+  
+  tr:hover{
+    background-color: rgb(230,230,250);
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+
+.bar{
+    max-width: 100%;
+    height: 10%; /* no need now heights */
+    margin: 10px 10px;
+}
+
+.bar form{
+    display: flex;
+}
+
+.f1{
+    float: left;
+}
+
+.f1 input[type=button]{
+    outline: none;
+    min-width: 100px;
+    font-weight: bold;
+    font-size: large;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.bar input[type=button] {
+  width: 20%;
+  height: 100%;
+  float: left;
+  padding: 10px;
+  background: black;
+  color: white;
+  font-size: 17px;
+  border: 1px solid grey;
+  border-left: none;
+  cursor: pointer;
+}
+
+.bar input[type=button]:hover{
+  background-color: dimgray;
+}
+
+fieldset{
+  background-color: rgba(0, 0, 0, 0.2);
+  /* background-image: linear-gradient(to left, rgba(255,0,0,0),rgb(176,224,230)); */
+  border-style: none;
+  /* border-radius: 15px; */
+  border-color: black;
+  /* margin-top: 60px; */
+  margin-left: 200px;
+  margin-right: 200px;
+  box-shadow: 0px 0px 10px 2px black;
+  color: rgb(0, 0, 0);
+}
+
+
+
